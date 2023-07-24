@@ -1,0 +1,7 @@
+.completed {
+    text-decoration: line-through; 
+  }
+  
+  .completed td:nth-child(2) {
+    display: none;
+  }

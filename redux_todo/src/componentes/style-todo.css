@@ -1,0 +1,54 @@
+.done {
+    text-decoration: line-through; 
+  }
+  
+  .done td:nth-child(2) {
+    display: none;
+  }
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.done {
+  text-decoration: line-through;
+}
+
+
+.table button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.table .btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.table .btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.table .btn-success:not(:disabled):not(.disabled):active {
+  background-color: #218838;
+}
+
+.table .btn-danger:not(:disabled):not(.disabled):active {
+  background-color: #c82333;
+}
+
+.table .btn-success:focus,
+.table .btn-danger:focus {
+  outline: none;
+  box-shadow: none;
+}

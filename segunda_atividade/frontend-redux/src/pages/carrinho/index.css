@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+}
+
+.containerCart {
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  justify-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+
+/* index.css */
+
+/* index.css */
+
+/* Estilos para a tabela */
+.table-custom {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Estilos para os cabeçalhos da tabela */
+.table-custom th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  color: #616063;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para as células da tabela */
+.table-custom td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+/* Estilos para linhas pares */
+.table-custom tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Estilos para os botões de incrementar e decrementar */
+.table-custom .quantity-buttons button {
+  background-color: #e7959b;
+  color: #fff;
+  border: none;
+  padding: 5px 10px; /* Adicione espaço à esquerda e à direita */
+  cursor: pointer;
+  margin: 0 5px; /* Adicione espaço à esquerda e à direita */
+  border-radius: 6px;
+}
+
+.table-custom .quantity-buttons button:hover {
+  background-color: #e7959b;
+}
+
+/* Estilos para o botão de remover */
+.table-custom .remove-button button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.table-custom .remove-button button:hover {
+  background-color: #c82333;
+}

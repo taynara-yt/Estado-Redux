@@ -1,0 +1,32 @@
+.container-form {
+    background-color: #f0f0f0; /* Cor de fundo do container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border:2px solid #e6b3cc; 
+  }
+  
+  .container-form h3 {
+    color: #616063; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .form-control {
+    background-color: #ffffff; 
+    border-color: #ccc; 
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(249, 115, 237, 0.667) 
+  }
+  
+  .btn-primary {
+    background-color: #e7959b; 
+    border-color: #e6b3cc;
+  }
+  
+  .btn-primary:hover {
+    background-color: #f46a84;
+    border-color: #e6b3cc;
+  }
+  
